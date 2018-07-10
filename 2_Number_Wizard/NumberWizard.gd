@@ -15,7 +15,7 @@ func _ready():
 func _process(delta):
 	if Input.is_action_just_pressed("ui_up"):
 		print("Up arrow key was pressed.")
-	if Input.is_action_just_pressed("ui_down"):
+	elif Input.is_action_just_pressed("ui_down"):
 		print("Down arrow key was pressed.")
-	if Input.is_action_just_pressed("ui_accept"):
+	elif Input.is_action_just_pressed("ui_accept"):
 		print("Return key was pressed.")
