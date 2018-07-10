@@ -1,0 +1,3 @@
+[submodule "UnityVersion"]
+	path = UnityVersion
+	url = ../CUD2D.git
